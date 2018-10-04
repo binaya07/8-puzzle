@@ -48,7 +48,7 @@ def dfs_search(begin_state,zero_pos):
     puzzle_state = game.Game(begin_state,zero_pos)
     stck = stack.Stack()
     
-    depth_limit = 10
+    depth_limit = 25
     i=0
     explored = set()  #to store already explored puzzle lists
     stck.push(puzzle_state)
